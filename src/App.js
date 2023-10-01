@@ -25,7 +25,7 @@ const App = () => {
     }
 
     useEffect(() => {
-        searchMovies('Spiderman');
+        searchMovies('Generic');
     }, []);
     return (
         <div className='app'>
